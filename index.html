@@ -8,9 +8,13 @@
     <a-scene>
         <a-sky src="https://img.freepik.com/premium-photo/backgrounds-night-sky-with-stars-clouds_180633-4011.jpg?w=2000"></a-sky>
         <a-camera position="0 8 15"></a-camera>
-        <a-assets><a-asset-item id="man" src="./man/scene.gltf"></a-asset-item>  
+        <a-assets>
+          <a-asset-item id="man" src="./man/scene.gltf"></a-asset-item>  
             <a-asset-item id="road" src="./road/scene.gltf"></a-asset-item>
             <a-asset-item id="seat" src="./seat/scene.gltf"></a-asset-item>
+            <a-asset-item id="cat" src="./cat/scene.gltf"></a-asset-item>  
+            <a-asset-item id="car" src="./car/scene.gltf"></a-asset-item>
+            
         </a-assets>
         
 
@@ -26,10 +30,13 @@
             <a-entity position="-40 6 0" rotation="0 55 0" scale="0.05 0.05 0.05" gltf-model="#man" shadow="cast:true ; receive:true ;" ></a-entity>
             <a-entity position="-30 3 -2" rotation="0 55 0" scale="1.05 1.05 1.05" gltf-model="#seat" shadow="cast:true ; receive:true ;" ></a-entity>
             <a-entity position="-6 2 0" rotation="0 75 0" scale="0.05 0.05 0.05" gltf-model="#road" shadow="cast:true ; receive:true ;" ></a-entity>
+            <a-entity position="-44 6 0" rotation="0 55 0" scale="1.5 1.5 1.5" gltf-model="#cat" shadow="cast:true ; receive:true ;" ></a-entity>
+            <a-entity position="-30 8 -2" rotation="0 55 0" scale="1.5 1.5 1.5" gltf-model="#car" shadow="cast:true ; receive:true ;" ></a-entity>
+           
            
             
         </a-entity>
-        <a-box position="-1 0.5 -5" rotation="0 0 0" src="dice.png"></a-box>
+      
       
         </a-entity>
     
